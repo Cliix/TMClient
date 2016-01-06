@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Forms">
+      <UniqueIdentifier>{50a6f403-ac0d-4af3-b2b6-7fc74c081ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Namespaces">
+      <UniqueIdentifier>{a00b0fff-4d21-4a99-816a-ac2c5d0f4650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Client">
+      <UniqueIdentifier>{7e31a42a-caad-4b2c-9697-0e628a254b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\User">
+      <UniqueIdentifier>{f419c0a7-022b-4b4d-8db8-afeae1af0f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{cd2d7926-1217-446a-8ff0-4938407de137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Injector">
+      <UniqueIdentifier>{e8370636-6689-4d2f-8cc1-bee8a7340716}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginInterface.h">
+      <Filter>Headerdateien\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Headerdateien\Namespaces</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Headerdateien\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.h">
+      <Filter>Headerdateien\Injector</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Headerdateien\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Headerdateien\Forms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LoginInterface.resx">
+      <Filter>Ressourcendateien</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface.resx">
+      <Filter>Ressourcendateien</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <Filter>Ressourcendateien</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
