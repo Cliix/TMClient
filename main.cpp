@@ -3,7 +3,7 @@
 int main()
 {
 	Client::LoginInterface ^Interface = gcnew Client::LoginInterface();
-	Interface->ShowDialog();
+	Interface->ShowDialog()
 
 	return 0;
 }
